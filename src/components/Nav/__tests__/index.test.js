@@ -28,8 +28,6 @@ describe("emoji is visible", () => {
 
 describe("links are visible", () => {
    it("inserts text into the links", () => {
-      render(<Nav />);
-
       expect(screen.getByTestId("link")).toHaveTextContent("Oh Snap!");
       expect(screen.getByTestId("about")).toHaveTextContent("About me");
    });
