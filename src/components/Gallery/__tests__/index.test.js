@@ -10,7 +10,7 @@ const portrait = {
 
 afterEach(cleanup);
 
-describe("Gallery component", () => {
+describe("Gallery is rendering", () => {
    it("renders", () => {
       render(<Gallery currentCategory={portrait} />);
    });
